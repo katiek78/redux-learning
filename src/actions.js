@@ -13,3 +13,10 @@ export const RESOLVE_BUG = id => ({
         id
     }
 })
+
+export const REMOVE_BUG = id => ({
+    type: actions.REMOVE_BUG,
+    payload: {
+        id
+    }
+})
